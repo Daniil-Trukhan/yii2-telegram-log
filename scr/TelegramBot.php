@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace app\components;
+namespace wildan99\yii2\log;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
