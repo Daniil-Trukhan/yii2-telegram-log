@@ -1,0 +1,26 @@
+{
+    "name": "wildan99/yii2-telegram-log",
+    "homepage": "https://github.com/wildan99/yii2-telegram-log",
+    "description": "Telegram Log",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension", "telegram", "log"],
+    "license": "MIT",
+    "authors": [
+        {
+
+            "name": "Daniil Trukhan",
+            "email": "truh.daniil@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2-httpclient": "~2.0.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wildan99\\yii2\\log\\": "src"
+        }
+    }
+}
